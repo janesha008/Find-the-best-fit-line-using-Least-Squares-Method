@@ -33,8 +33,8 @@ d=np.sum((x-x_mean)**2)
 m=n/d
 c=y_mean-(m*x_mean)
 
-print(f"Slope(m):{m}")
-print(f"intercept(c):{c}")
+print(f"Slope(m): {m}")
+print(f"Intercept(c): {c}")
 
 y_pred=(m*x)+c
 
@@ -53,7 +53,7 @@ plt.show()
 
 ## Output:
 
-<img width="730" height="651" alt="image" src="https://github.com/user-attachments/assets/b647e571-358a-4a8d-bc19-9cc0e743f8cb" />
+<img width="737" height="665" alt="image" src="https://github.com/user-attachments/assets/b39cb6f7-74c5-41a6-9747-b5f56c8972a5" />
 
 
 ## Result:
