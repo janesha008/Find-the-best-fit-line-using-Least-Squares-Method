@@ -26,13 +26,11 @@ y=np.array([2,4,6,8,10])
 
 x_mean=np.mean(x)
 y_mean=np.mean(y)
-
 n=np.sum((x-x_mean)*(y-y_mean))
 d=np.sum((x-x_mean)**2)
 
 m=n/d
 c=y_mean-(m*x_mean)
-
 print(f"Slope(m): {m}")
 print(f"Intercept(c): {c}")
 
